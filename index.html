@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografis Pembangunan ZI - BPS Provinsi Sumatera Utara</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 350px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 400px;
+            }
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #088395;
+            border: 4px solid #F4F4F4;
+            top: 0;
+            left: -10px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-[#0A4D68] text-white p-8 text-center shadow-lg">
+        <h1 class="text-4xl md:text-5xl font-black tracking-tight">Sinergi Pembangunan Zona Integritas</h1>
+        <p class="text-xl md:text-2xl font-semibold mt-2 text-[#05BFDB]">BPS Provinsi Sumatera Utara</p>
+        <p class="mt-4 max-w-3xl mx-auto text-lg">Mewujudkan birokrasi yang bersih, melayani, dan bebas dari korupsi melalui budaya kerja STMJ: **S**aing, **T**oleran, **M**aju, dan **J**aya.</p>
+    </header>
+
+    <main class="container mx-auto p-4 md:p-8">
+        <section id="journey" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#0A4D68] mb-8">Perjalanan Menuju Integritas</h2>
+            <div class="relative max-w-4xl mx-auto">
+                <div class="absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-dashed border-[#088395] md:left-4 md:transform-none"></div>
+                <div class="space-y-12">
+                    <div class="relative md:pl-12">
+                        <div class="timeline-item">
+                            <div class="md:ml-4 bg-white p-6 rounded-lg shadow-md border-l-4 border-[#05BFDB]">
+                                <span class="font-bold text-xl text-[#0A4D68]">2019 - 2020</span>
+                                <h3 class="text-lg font-semibold mt-1">Awal Mula & Pencanangan</h3>
+                                <p class="mt-2 text-gray-600">Perjalanan dimulai dengan pengenalan konsep Pembangunan ZI pada tahun 2019, yang dilanjutkan dengan pencanangan resmi pertama pada 20 Maret 2020 sebagai komitmen awal institusi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative md:pl-12">
+                        <div class="timeline-item">
+                            <div class="md:ml-4 bg-white p-6 rounded-lg shadow-md border-l-4 border-[#05BFDB]">
+                                <span class="font-bold text-xl text-[#0A4D68]">2021 - 2023</span>
+                                <h3 class="text-lg font-semibold mt-1">Evaluasi & Pengakuan Internal</h3>
+                                <p class="mt-2 text-gray-600">Fase penilaian dimulai, dari Penilaian Mandiri (2021), Penilaian oleh Tim Penilai Nasional (TPN) (2022), hingga berhasil meraih predikat Wilayah Bebas Korupsi (WBK) Internal pada tahun 2023.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative md:pl-12">
+                        <div class="timeline-item">
+                            <div class="md:ml-4 bg-white p-6 rounded-lg shadow-md border-l-4 border-[#05BFDB]">
+                                <span class="font-bold text-xl text-[#0A4D68]">2024</span>
+                                <h3 class="text-lg font-semibold mt-1">Percepatan & Komitmen Ulang</h3>
+                                <p class="mt-2 text-gray-600">Dengan arahan pimpinan untuk percepatan, dilakukan pencanangan kembali Pembangunan ZI pada 20 September 2024 untuk memperkuat komitmen dan mengakselerasi perubahan.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="relative md:pl-12">
+                        <div class="timeline-item">
+                            <div class="md:ml-4 bg-white p-6 rounded-lg shadow-md border-l-4 border-[#05BFDB]">
+                                <span class="font-bold text-xl text-green-600">2025</span>
+                                <h3 class="text-lg font-semibold mt-1">Target Utama: WBK Nasional</h3>
+                                <p class="mt-2 text-gray-600">Seluruh pegawai menandatangani Pakta Integritas, menargetkan pencapaian predikat WBK secara nasional dan lolos penilaian Tim Penilai Internal (TPI) sebagai puncak dari upaya transformasi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kpi-highlights" class="mb-12 text-center">
+            <h2 class="text-3xl font-bold text-center text-[#0A4D68] mb-8">Transformasi Kinerja dalam Angka</h2>
+            <p class="max-w-3xl mx-auto mb-8 text-gray-600">Pembangunan Zona Integritas telah membawa dampak nyata yang terukur. Berikut adalah perbandingan beberapa indikator kunci antara tahun 2023 dan 2024, yang menunjukkan peningkatan signifikan dalam akuntabilitas dan kualitas layanan.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold text-gray-700">Indeks Pelayanan Publik</h3>
+                    <p class="text-5xl font-black text-[#088395] my-2">4,67</p>
+                    <p class="text-lg font-bold text-green-600">PRIMA</p>
+                    <p class="text-sm text-gray-500">Meningkat dari 3,51 (Baik) di 2023</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-lg font-semibold text-gray-700">Nilai Maturitas SPIP</h3>
+                    <p class="text-5xl font-black text-[#088395] my-2">3,254</p>
+                     <p class="text-lg font-bold text-green-600">TERDEFINISI</p>
+                    <p class="text-sm text-gray-500">Meningkat dari 1,716 di 2023</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg md:col-span-2 lg:col-span-1">
+                    <h3 class="text-lg font-semibold text-gray-700">Indeks Perilaku Anti Korupsi</h3>
+                    <p class="text-5xl font-black text-[#088395] my-2">98,13</p>
+                    <p class="text-lg font-bold text-green-600">SANGAT BAIK</p>
+                    <p class="text-sm text-gray-500">Meningkat dari 97,47 di 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="pillars" class="mb-12">
+            <h2 class="text-3xl font-bold text-center text-[#0A4D68] mb-8">Enam Pilar Perubahan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">1</div>
+                    <h3 class="text-xl font-bold mt-2">Manajemen Perubahan</h3>
+                    <p class="mt-2 text-gray-600">Membangun budaya kerja positif dan pola pikir yang berorientasi pada integritas melalui program seperti AMOR, WEGO, dan ONMADA.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">2</div>
+                    <h3 class="text-xl font-bold mt-2">Penataan Tatalaksana</h3>
+                    <p class="mt-2 text-gray-600">Meningkatkan efisiensi proses bisnis dengan 335 SOP yang diperbarui dan inovasi layanan digital seperti ALUSI dan BOT EDA.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">3</div>
+                    <h3 class="text-xl font-bold mt-2">Penataan Sistem Manajemen SDM</h3>
+                    <p class="mt-2 text-gray-600">Menerapkan sistem merit yang transparan untuk mutasi dan promosi pegawai melalui aplikasi PARHATA.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">4</div>
+                    <h3 class="text-xl font-bold mt-2">Penguatan Akuntabilitas</h3>
+                    <p class="mt-2 text-gray-600">Memastikan kinerja berorientasi hasil melalui SAKIP, dengan dokumen IKU dan Perjanjian Kinerja yang jelas.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">5</div>
+                    <h3 class="text-xl font-bold mt-2">Penguatan Pengawasan</h3>
+                    <p class="mt-2 text-gray-600">Mencegah KKN melalui Whistleblowing System, pengendalian gratifikasi, dan manajemen risiko yang proaktif.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="text-3xl font-bold text-[#05BFDB]">6</div>
+                    <h3 class="text-xl font-bold mt-2">Peningkatan Kualitas Layanan Publik</h3>
+                    <p class="mt-2 text-gray-600">Memberikan pelayanan prima yang inklusif untuk semua, terutama kelompok rentan, melalui program PARIBAN.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="kpi-charts" class="mb-12">
+             <h2 class="text-3xl font-bold text-center text-[#0A4D68] mb-8">Visualisasi Peningkatan Kinerja</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-center mb-4">Indeks Kepuasan Konsumen (IKK)</h3>
+                    <div class="chart-container">
+                        <canvas id="ikkChart"></canvas>
+                    </div>
+                    <p class="text-center mt-4 text-gray-600">Peningkatan kepuasan menunjukkan layanan yang semakin responsif dan memenuhi kebutuhan pengguna data.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-xl font-bold text-center mb-4">Nilai Akuntabilitas Kinerja (SAKIP)</h3>
+                    <div class="chart-container">
+                        <canvas id="sakipChart"></canvas>
+                    </div>
+                     <p class="text-center mt-4 text-gray-600">Kenaikan nilai SAKIP mencerminkan pengelolaan kinerja yang lebih efektif dan berorientasi pada hasil.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="risk-management" class="text-center bg-white p-8 rounded-lg shadow-lg">
+            <h2 class="text-3xl font-bold text-[#0A4D68] mb-4">Manajemen Risiko Proaktif</h2>
+            <p class="max-w-3xl mx-auto mb-6 text-gray-600">Sebagai bagian dari pilar pengawasan, kami secara sistematis mengidentifikasi dan merencanakan mitigasi risiko untuk memastikan integritas dan pencapaian tujuan organisasi.</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <div class="border-2 border-dashed border-red-400 p-6 rounded-lg">
+                    <p class="text-6xl font-black text-red-600">343</p>
+                    <p class="text-xl font-semibold">Risiko Teridentifikasi</p>
+                </div>
+                <div class="text-4xl font-bold text-gray-400">➔</div>
+                <div class="border-2 border-dashed border-green-400 p-6 rounded-lg">
+                    <p class="text-6xl font-black text-green-600">421</p>
+                    <p class="text-xl font-semibold">Rencana Tindak Penanganan</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#0A4D68] text-white text-center p-6 mt-8">
+        <p>&copy; 2025 BPS Provinsi Sumatera Utara. Data Berkualitas untuk Indonesia Maju.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const wrapLabel = (label) => {
+                if (label.length > 16) {
+                    const words = label.split(' ');
+                    const lines = [];
+                    let currentLine = '';
+                    words.forEach(word => {
+                        if ((currentLine + word).length > 16) {
+                            lines.push(currentLine.trim());
+                            currentLine = '';
+                        }
+                        currentLine += word + ' ';
+                    });
+                    lines.push(currentLine.trim());
+                    return lines;
+                }
+                return label;
+            };
+
+            const tooltipTitleCallback = (tooltipItems) => {
+                const item = tooltipItems[0];
+                let label = item.chart.data.labels[item.dataIndex];
+                if (Array.isArray(label)) {
+                    return label.join(' ');
+                }
+                return label;
+            };
+            
+            const sharedChartOptions = {
+                maintainAspectRatio: false,
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: false,
+                        grid: {
+                            color: '#e5e7eb',
+                        },
+                        ticks: {
+                            color: '#374151',
+                            font: {
+                                weight: '600'
+                            }
+                        }
+                    },
+                    x: {
+                        grid: {
+                            display: false,
+                        },
+                        ticks: {
+                            color: '#374151',
+                            font: {
+                                weight: '600'
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        backgroundColor: '#0A4D68',
+                        titleFont: {
+                            size: 16,
+                            weight: 'bold'
+                        },
+                        bodyFont: {
+                            size: 14
+                        },
+                        callbacks: {
+                            title: tooltipTitleCallback
+                        }
+                    }
+                }
+            };
+
+            const ikkCtx = document.getElementById('ikkChart').getContext('2d');
+            new Chart(ikkCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['2023', '2024'],
+                    datasets: [{
+                        label: 'Nilai IKK',
+                        data: [95.66, 97.58],
+                        backgroundColor: ['#05BFDB', '#088395'],
+                        borderColor: ['#05BFDB', '#088395'],
+                        borderWidth: 1,
+                        borderRadius: 5
+                    }]
+                },
+                options: { ...sharedChartOptions, scales: { ...sharedChartOptions.scales, y: { ...sharedChartOptions.scales.y, min: 94 } } }
+            });
+
+            const sakipCtx = document.getElementById('sakipChart').getContext('2d');
+            new Chart(sakipCtx, {
+                type: 'bar',
+                data: {
+                    labels: ['2023', '2024'],
+                    datasets: [{
+                        label: 'Nilai SAKIP',
+                        data: [75.95, 76.75],
+                        backgroundColor: ['#05BFDB', '#088395'],
+                        borderColor: ['#05BFDB', '#088395'],
+                        borderWidth: 1,
+                        borderRadius: 5
+                    }]
+                },
+                options: { ...sharedChartOptions, scales: { ...sharedChartOptions.scales, y: { ...sharedChartOptions.scales.y, min: 74 } } }
+            });
+        });
+    </script>
+</body>
+</html>
